@@ -1,0 +1,51 @@
+
+public class Course 
+	{
+		String courseId,courseName;
+		int duration;
+		
+		public Course(String courseId,String courseName,int duration)
+		{
+			this.courseId=courseId;
+			this.courseName=courseName;
+			this.duration=duration;
+		}
+		
+		public void displayCourse()
+		{
+			System.out.println("Course ID:"+courseId);
+			System.out.println("Course Name:"+courseName);
+			System.out.println("Course Duration:"+duration);
+		}
+	}
+
+
+	public class Student 
+	{
+		String studentId,studentName;
+		Course course;
+		
+		public Student(String studentId,String studentName,String courseId,String courseName,int duration)
+		{
+			this.studentId=studentId;
+			this.studentName=studentName;
+			course=new Course(courseId,courseName,duration);
+		}
+		public void displayStudentDetail()
+		{
+			System.out.println("Student ID:"+studentId);
+			System.out.println("Student Name:"+studentName);
+			course.displayCourse();
+		}
+	}
+
+
+	public class CompositionDemo 
+	{
+		public static void main(String arg[])
+		{
+			Student student=new Student("S1001","Suresh","DTEJA","Digital Transforation for Java",2);
+			student.displayStudentDetail();
+		}
+	}
+}

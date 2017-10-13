@@ -1,0 +1,35 @@
+
+	import java.util.*;
+	public class ListDemo 
+	{
+		public static void main(String arg[])
+		{
+			ArrayList listItems=new ArrayList();
+			
+			//To store the element in the collection we need to use add() method.
+
+			listItems.add("Sunil");//upcasting
+			listItems.add("Kiran");
+			listItems.add("Vinod");
+
+			listItems.add(100);
+			listItems.add(200);
+
+			for(Object element:listItems)
+			{
+				if(element instanceof String)
+				{
+					String str=(String)element;
+					System.out.println(str);
+				}
+				else if(element instanceof Integer)
+				{
+					Integer intr=(Integer)element;
+					System.out.println(intr);
+				}
+				else {}
+			}
+		}
+	}
+
+}

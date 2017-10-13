@@ -7,7 +7,7 @@ public class Bank
 		System.out.println(name);
 		System.out.println(acc_no);
 		System.out.println(IFSC_code);
-	//	System.out.println(amount);
+	
 	}
 }
 	class balanceInfo extends Bank

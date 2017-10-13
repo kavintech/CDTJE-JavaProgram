@@ -1,0 +1,34 @@
+
+public class SalariedEmployee extends Employee 
+	{	
+		int salary;
+		
+		public SalariedEmployee()//default constructor
+		{
+			salary=3000;
+		}
+		//overloaded constructor
+		public SalariedEmployee(String empId,String empName,String addr,int salary)
+		{
+			super(empId,empName,addr);
+			this.salary=salary;
+		}
+		
+		public void display()
+		{
+			System.out.println("Employee ID:"+empId);
+			System.out.println("Employee Name:"+empName);
+			System.out.println("Employee Address:"+addr);
+			System.out.println("Salary : "+salary);
+		}
+		
+		public static void main(String arg[])
+		{
+			SalariedEmployee salaryEmployee=new SalariedEmployee();
+			salaryEmployee.display();
+			
+			SalariedEmployee salaryEmployee2=new SalariedEmployee("E1002","Gagan","Mumbai",7000);
+			salaryEmployee2.display();
+		}
+	}
+}

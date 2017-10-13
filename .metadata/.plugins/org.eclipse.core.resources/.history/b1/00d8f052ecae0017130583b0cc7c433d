@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Switchcase {
+
+	public static void main(String[] args) {
+		string name;
+		System.out.println("enter the choice":);
+		Scanner scanner=new Scanner(System.in);
+		name scanner=next();
+		switch (name) {
+		case 1:
+			System.out.println("kavin");
+			break;
+		case 2:
+			System.out.println("azar");
+			break;
+		case 3:
+			System.out.println("sasi");
+			break;
+		case 4:
+			System.out.println("invalid");
+				
+		default:
+	}
+
+	}
+}

@@ -1,0 +1,32 @@
+
+	import java.util.*;
+	public class ListDemo 
+	{
+		public static void main(String arg[])
+		{
+			ArrayList listItems=new ArrayList();
+			
+			//To store the element in the collection we need to use add() method.
+
+			listItems.add("Sunil");//upcasting
+			listItems.add("Kiran");
+			listItems.add("Vinod");
+
+			listItems.add(100);
+			listItems.add(200);
+
+			//Any thing which we are adding to the Collection will be consider as object.
+			System.out.println("Size of ArrayList:"+listItems.size()); //5
+
+			//To get a particular item from the array list from a specified index
+			Object element=listItems.get(2);
+			String myElement=(String)element;//downcasting
+			
+			System.out.println("Element in 2nd Index:"+myElement);
+			
+			//Display All Elements
+			System.out.println(listItems);
+		}
+	}
+
+}
