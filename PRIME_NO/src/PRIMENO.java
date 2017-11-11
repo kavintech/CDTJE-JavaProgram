@@ -4,22 +4,22 @@ public class PRIMENO {
 
 	public static void main(String[] args) 
 			{
-				int var1,flag=0,count;
+				int a,b=0,c;
 				
 				System.out.println("Enter the Value:");
 				Scanner scanner=new Scanner(System.in);
-				var1=scanner.nextInt();
+				a=scanner.nextInt();
 				
-				for(count=2;count<=var1/2;count++)
+				for(c=2;c<=a/2;c++)
 				{
-					if(var1%count==0)
+					if(a%c==0)
 					{
-						flag=1;
+						b=1;
 						break;
 					}
 				}
 				
-				if(flag==0)
+				if(b==0)
 						System.out.println("Prime Number");
 				else
 						System.out.println("Not a Prime");

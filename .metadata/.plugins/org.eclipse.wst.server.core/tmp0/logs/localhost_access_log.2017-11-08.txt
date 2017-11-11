@@ -1,0 +1,11 @@
+127.0.0.1 - - [08/Nov/2017:10:01:56 -0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:22 -0800] "GET /BootStrapExample/RegisterPage.jsp HTTP/1.1" 200 3961
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:22 -0800] "GET /BootStrapExample/RegisterPage.jsp HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:23 -0800] "GET /BootStrapExample/js/jquery.min.js HTTP/1.1" 404 1060
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:23 -0800] "GET /BootStrapExample/js/bootstrap-datepicker.js HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:24 -0800] "GET /BootStrapExample/js/jquery.min.js HTTP/1.1" 404 1060
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:24 -0800] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:55 -0800] "POST /BootStrapExample/RegisterPage.jsp HTTP/1.1" 200 3961
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:55 -0800] "GET /BootStrapExample/js/jquery.min.js HTTP/1.1" 404 1060
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:55 -0800] "GET /BootStrapExample/js/bootstrap-datepicker.js HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:10:02:55 -0800] "GET /BootStrapExample/js/jquery.min.js HTTP/1.1" 404 1060

@@ -1,0 +1,16 @@
+127.0.0.1 - - [26/Oct/2017:23:27:52 -0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:27:55 -0700] "GET /BootStrapExample/HomePage.html HTTP/1.1" 200 3722
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:27:55 -0700] "GET /BootStrapExample/Resource/image/68413310-bike-wallpapers.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:27:55 -0700] "GET /BootStrapExample/Resource/image/audi_car_white_83865_1920x1080.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:27:55 -0700] "GET /BootStrapExample/Resource/image/audi_blue_beautiful_cars_79694_1920x1080.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:27:56 -0700] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:29:24 -0700] "GET /BootStrapExample/HomePage.html HTTP/1.1" 200 3722
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:29:26 -0700] "GET /BootStrapExample/HomePage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:33:16 -0700] "GET /BootStrapExample/HomePage.html HTTP/1.1" 404 1054
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:33:22 -0700] "GET /BootStrapExample/HomePage.jsp HTTP/1.1" 500 3029
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:33:55 -0700] "GET /BootStrapExample/HomePage.jsp HTTP/1.1" 500 3029
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:36:27 -0700] "GET /BootStrapExample/HomeMainPage.jsp HTTP/1.1" 200 536
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:37:21 -0700] "GET /BootStrapExample/HomeMainPage.jsp HTTP/1.1" 200 3652
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:38:44 -0700] "GET /BootStrapExample/HomeMainPage.jsp HTTP/1.1" 200 3646
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:39:20 -0700] "GET /BootStrapExample/LoginPage.jsp HTTP/1.1" 200 1557
+0:0:0:0:0:0:0:1 - - [26/Oct/2017:23:39:57 -0700] "GET /BootStrapExample/LoginPage.jsp HTTP/1.1" 200 1846
